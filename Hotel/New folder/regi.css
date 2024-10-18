@@ -1,0 +1,176 @@
+
+
+.backimage img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1550px;
+  height: 620px;
+  position: absolute; 
+  z-index: 1;
+ 
+
+ 
+  
+   }
+
+   .way pre
+   {
+    z-index: 2;
+    position: absolute;
+     margin-left: 32%;
+     margin-top: 6%;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 60px;
+     color: rgb(199, 136, 11);
+    font-size: 69px;
+    text-shadow: 3px 4px #171717;
+    font-weight: bolder;
+    
+   }
+
+.register h2{
+
+    margin-top: -4%;
+   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0.08em;
+  color: rgb(44, 43, 43);
+  font-size: 30px;
+  text-shadow: 2px 1px #929292;
+
+}
+
+.register h4{
+  
+    margin-top: -2%;
+   text-align: center;
+   font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+.register img{
+
+    width:755px;
+    height: 337px;
+   border-radius: 2%;
+}
+
+.register label{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.register{
+
+    border: 2px black solid;
+    margin-left: 25%;
+    margin-right: 24.5%;
+    border-radius: 10px;
+    margin-top: 35%;
+    z-index: 3;
+    position: relative;
+    box-shadow: 1.5px 2.5px rgba(20, 20, 20, 0.8);
+}
+
+.lables label{
+
+    margin-left: 11%;
+   
+
+    
+}
+
+.lables .first , .last,.city,.state,.postal,.contact,.email,.arriveDate,.depatureDate,.noAdults,.noKids,.typeOfRoom,.numberOfRooms{
+
+     width:250px;
+     height: 35px;
+     margin-left: 11%;
+     margin-top: 1.5%;
+     margin-bottom: 1.5%;
+     background-color: rgb(206, 233, 244);
+     border: 0.5px  solid black;
+}
+
+.lables .address{
+    
+    width:595px;
+     height: 35px;
+    margin-left: 11%;
+    margin-top:1.5%;
+    margin-bottom: 1.5%;
+    background-color: rgb(206, 233, 244);
+    border: 0.5px solid black;
+}
+
+
+
+.emailcon .emai{
+  
+    margin-left: 31.5%;
+ 
+}
+
+.date .depature{
+    
+    margin-left: 33.5%;
+
+}
+
+.members .kids
+{
+    margin-left: 29.8%;
+}
+
+.rooms .numberRooms
+{
+    margin-left: 32.5%;
+}
+
+.register .submit{
+
+   justify-content: center;
+   width: 150px;
+   height: 30px;
+   margin-left: 40%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   font-size: 18px;
+   font-weight: 550;
+   border-radius: 10px;
+   background-color: rgb(101, 174, 210);
+   color: rgb(0, 0, 0);
+   font-style: bolder;
+   border: 1.8px black solid;
+   text-shadow: 1px 1px rgb(255, 255, 255);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   box-shadow: 0 9px rgba(44, 44, 44, 0.834);
+   
+
+}
+
+.register .submit:active{
+ 
+    box-shadow:  0 5px #666;
+    transform: translateY(4px);
+
+}
+
+.register .submit:hover{
+
+    cursor: pointer;
+}
+
+.register .numberOfRooms
+{
+    margin-left: 12%;
+}
+
+
+.lables img {
+    
+    width:20px;
+    height: 20px;
+    display: none;
+}
+

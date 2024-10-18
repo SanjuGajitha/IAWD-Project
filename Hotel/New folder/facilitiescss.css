@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: hsla(211, 78%, 5%, 0.863);
+    
+}
+
+header, footer {
+    background: #137be4;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    
+    
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+    background: #b19207c3;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+h1 {
+    color: #003366;
+    font-size: 50px;
+}
+
+.facility, .experience {
+    margin: 15px 0;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+
+
+}
+
+
+.image-container {
+    display: flex;          /* Use flexbox for inline layout */
+    justify-content: center; /* Center the images */
+    margin: 20px;         /* Add some margin */
+}
+
+.image-container img {
+    width: 45%;           /* Set the width of images */
+    margin: 0 10px;      /* Add horizontal margin between images */
+    border-radius: 8px;  /* Optional: round corners */
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+    
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #003366;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

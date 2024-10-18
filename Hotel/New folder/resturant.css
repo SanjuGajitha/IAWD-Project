@@ -1,0 +1,107 @@
+
+       
+body {
+    background-image:url("images/restu/back.jpg");
+   
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+h2 {
+    color: #b2d915;
+    text-align: center;
+    font-family: 'Lucida Calligraphy';
+}
+nav {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #444;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #f44336;
+}
+/* Main Content */
+.container {
+    width: 60%;
+   margin-left: 2%;
+   
+}
+.menu-section {
+    margin-bottom: 40px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(230, 201, 195, 0.5);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(240, 240, 240, 0.1);
+}
+
+
+.menu-item:hover{
+
+    transform: scale(1.02);
+   transition: 0.5s;
+
+}
+.menu-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+.menu-details {
+    flex: 1;
+    margin-left: 20px;
+}
+.menu-details h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Lucida Calligraphy';
+    
+}
+.menu-details p {
+    margin: 5px 0;
+    color: #ffffff;
+    text-shadow: 1.5px 1.5px  black;
+}
+.price {
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+   background-color: #eea111;
+   font-family:'Times New Roman', Times, serif;
+}
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

@@ -1,0 +1,101 @@
+body{
+    background-color:#3d3d3d;
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
+    color: aliceblue;
+    text-shadow: 1.5px 1px black;
+    font-size: 32px;
+    text-decoration: underline;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  th {
+    background-color: #8f6f1d; 
+    color: rgb(255, 255, 255);              
+    padding: 12px 10px;
+    text-align: left;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    border: 1px rgb(102, 83, 8) solid; 
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+ 
+  td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd; 
+    font-size: 14px;
+  }
+
+  tr{
+    background-color:#d5d5d5; ;
+  }
+  
+  tr:hover {
+    background-color: #9a9a9a; 
+  }
+  
+
+  
+ 
+  table {
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  }
+
+
+  tr a {
+ 
+    padding: 8px 16px;
+    font-size: 14px;
+    color: white;
+    background-color: #e74c3c; 
+    text-align: center;
+    text-decoration: none;
+    margin-left: 3%;
+    border-radius: 4px;
+    border: 1px solid #c0392b; 
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+ 
+  a:hover
+   {
+    background-color: #e75f50; 
+    border-color: #a93226; 
+   
+  }
+
+  a.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    text-shadow: 1px 1px black;
+    margin-left: 47%;
+  
+  }
+
+
+  
+  a.home-button:hover {
+         
+    opacity: 78%;
+  }

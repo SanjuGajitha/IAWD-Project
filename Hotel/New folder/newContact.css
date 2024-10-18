@@ -1,0 +1,137 @@
+body{
+    background-image: url("fff.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 2%;
+    background-color: #fff;
+}
+
+.contact-info {
+    color: #dddac0f0;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+
+.contact-info i {
+    margin-right: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+
+.contact-form img{
+    width:850px;
+    height: 550px;
+    margin-left: 10%;
+}
+
+.contact-form {
+    display: flex;
+    max-width: 700px;
+    margin-right: 50px;
+    
+}
+
+form{
+    margin-left: 20%;
+    margin-top: 7%;
+    background-color: #fff;
+}
+
+.contact-info, .contact-form {
+    flex: 3;
+}
+
+ h2 {
+    color: #e0dfdff8;
+    text-align:center;
+    font-size: 40px;
+    text-shadow: 1.5px 2px rgb(0, 0, 0);
+    text-transform: uppercase;
+  
+
+}
+
+
+.contact-form .textbox {
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 500%; 
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact-form .textbox:first-child {
+    margin-right: 0;
+}
+
+.contact-form textarea {
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 500%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+
+.contact-form .send_btn {
+    float: right;
+    background: #2E94E3;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+   
+}
+
+.send_btn:hover {
+    background: #f09e06;
+    transition: 0.9ms;
+    transform-style: preserve-3d;
+    transition-duration:0.3ms;
+}
+
+.contact-info i:hover{
+
+    background: #ec9f04;
+    transition:width 2s,height 1s,transform 2s;
+    transform-style: preserve-3d;
+    transition-duration:0.3ms;
+    transform: scale(1.5);
+    
+}
+ 
+ 
